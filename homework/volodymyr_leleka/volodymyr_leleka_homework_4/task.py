@@ -12,7 +12,7 @@ print(my_dict['list'])
 my_dict['list'].pop(1)  # List delete second value
 print(my_dict['list'])
 
-my_dict['dict'][('i am tuple')] = 'tess'  # Add new key
+my_dict['dict'][('i am tuple',)] = 'tess'  # Add new key
 print(my_dict['dict'].keys())
 my_dict['dict'].pop('key_3')  # Delete key
 print(my_dict['dict'].keys())
