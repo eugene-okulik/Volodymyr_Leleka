@@ -3,11 +3,11 @@ text = ('Etiam tincidunt neque erat, quis molestie enim imperdiet vel. Integer u
 words = text.split()
 for word in words:
     if word[-1] in ',':
-            symbol = word[-1]
-            word = word[:-1]
+        symbol = word[-1]
+        word = word[:-1]
     elif word[-1] in '.':
-            symbol = word[-1]
-            word = word[:-1]
+        symbol = word[-1]
+        word = word[:-1]
     else:
-            symbol = ''
+        symbol = ''
     print(word + 'int' + symbol, end=' ')
