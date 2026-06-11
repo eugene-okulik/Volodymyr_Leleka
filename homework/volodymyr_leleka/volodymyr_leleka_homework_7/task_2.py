@@ -1,7 +1,4 @@
 words = {'I': 3, 'love': 5, 'Python': 1, '!': 50}
-#print(words.values())
-#print(words.keys())
-#print(words.items())
 number = 0;
 for word in words.items():
     symbol, count = word
