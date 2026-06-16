@@ -1,6 +1,6 @@
 import random
 
-bonus =[True, False]
+bonus = [True, False]
 bonus = random.choice(bonus)
 salary = int(input('введите зарплату: '))
 bonus_mon = random.randint(1, 99999)
