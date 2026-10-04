@@ -11,4 +11,3 @@ def example(text):
 
 
 example("print me", count=5)
-
